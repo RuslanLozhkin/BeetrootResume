@@ -1,0 +1,215 @@
+html{
+    min-height: 100%;
+    height: 100%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    height: 100%;
+    min-height: 100%;
+}
+p {
+    text-align: justify;
+}
+ul{
+    padding-left: 0;
+}
+#left, #right {
+    display: table-cell;
+    float: left;
+    width: 40%;
+    height: 100%;
+    min-height: 100%;
+    margin: 20px;
+    color: #4a494b;
+    padding: 20px;
+}
+#right{
+    background-color: #D7D7D9;
+}
+#left ul,
+#right ul {
+    list-style: none;
+    color: #4a494b;
+}
+#left ul li a,
+#right ul li a {
+    color: #4a494b;
+}
+#left ul li a i,
+#right ul li a i {
+    color: #000;
+    padding-right: 15px;
+    font-size: 1.5rem;
+}
+#me {
+    z-index: -1;
+    margin-bottom: 10px;
+}
+#me img{
+    display: block;
+    width: 250px;
+    border-radius: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+#me-below  {
+    display: block;
+    background-color: #262930;
+    font-size: 3rem;
+    color: #fff;
+    padding: 15px;
+    width: 110%;
+}
+#name{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+#vacancy{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+#me-below span:nth-child(2) {
+    font-size: 1.2rem;
+}
+#contacts ul li {
+    margin-bottom: 10px;
+}
+#contacts ul li a:hover i{
+    color: #2D7FA7;
+}
+#interests ul {
+    display: table;
+    width: 100%;
+}
+#interests ul li {
+    display: table-cell;
+    text-align: center;
+}
+#interests ul li:first-child {
+    text-align: left;
+}
+#interests ul li:last-child {
+    text-align: right;
+}
+
+#interests ul li a i {
+    font-size: 2.5rem;
+    padding: 0;
+}
+#interests ul li a:hover i{
+    color: #2D7FA7;
+}
+#title-lang {
+    color: #000;
+    font-size: 1.5rem;
+}
+#left div {
+    margin: 10px 0;
+    height: 2px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #9D9B9E;
+    position: relative;
+}
+#left div > div {
+    display: block;
+    border: none;
+    height: 4px;
+    width: 15%;
+    background-color: #2D7FA7;
+    box-shadow: 0 0 6px  #2D7FA7;
+    position: absolute;
+    top: -11px;
+    border-radius: 2px;
+}
+#right div {
+    display: block;
+    border: none;
+    height: 4px;
+    width: 15%;
+    margin-top: 10px;
+    background-color: #2D7FA7;
+    box-shadow: 0 0 6px  #2D7FA7;
+    border-radius: 2px;
+}
+.left-section span,
+.right-section span {
+    color: #000;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#education ul li {
+    margin-bottom: 10px;
+}
+#education ul li::before{
+    display: inline-block;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-right:  5px;
+    margin-bottom: 2px;
+    border-radius: 50%;
+    background-color: #2D7FA7;
+}
+#languages ul li{
+    color: #4a494b;
+    font-size: 1rem;
+}
+#languages ul li strong,
+#skills ul li strong{
+    display: inline-block;
+    width: 30%;
+}
+#languages section,
+#skills section {
+    width: 60%;
+    height: 6px;
+    border: 1px solid #4a494b;
+    border-top-left-radius: 6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: inline-block;
+}
+#languages section section,
+#skills section section {
+    display:block;
+    border: none;
+    background-color: #4a494b;
+}
+#ukrainian section{
+    width: 100%;
+}
+#russian section{
+    width: 100%;
+}
+#english section{
+    width: 60%;
+}
+#html5 section{
+    width: 100%;
+}
+#css3 section{
+    width: 70%;
+}
+#javascript section{
+    width: 70%;
+}
+#photoshop section{
+    width: 40%;
+}
+#jquery section{
+    width: 70%;
+}
+#sassscss section{
+    width: 70%;
+}
