@@ -3,7 +3,7 @@ html{
     height: 100%
 }
 
-body {
+body{
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
@@ -14,13 +14,13 @@ body {
     height: 100%;
     min-height: 100%;
 }
-p {
+p{
     text-align: justify;
 }
 ul{
     padding-left: 0;
 }
-#left, #right {
+#left, #right{
     display: table-cell;
     float: left;
     width: 40%;
@@ -34,21 +34,21 @@ ul{
     background-color: #D7D7D9;
 }
 #left ul,
-#right ul {
+#right ul{
     list-style: none;
     color: #4a494b;
 }
 #left ul li a,
-#right ul li a {
+#right ul li a{
     color: #4a494b;
 }
 #left ul li a i,
-#right ul li a i {
+#right ul li a i{
     color: #000;
     padding-right: 15px;
     font-size: 1.5rem;
 }
-#me {
+#me{
     z-index: -1;
     margin-bottom: 10px;
 }
@@ -60,7 +60,7 @@ ul{
     margin-right: auto;
     padding-bottom: 20px;
 }
-#me-below  {
+#me-below{
     display: block;
     background-color: #262930;
     font-size: 3rem;
@@ -76,7 +76,7 @@ ul{
     font-size: 1.5rem;
     text-transform: uppercase;
 }
-#me-below span:nth-child(2) {
+#me-below span:nth-child(2){
     font-size: 1.2rem;
 }
 #contacts ul li {
@@ -89,18 +89,18 @@ ul{
     display: table;
     width: 100%;
 }
-#interests ul li {
+#interests ul li{
     display: table-cell;
     text-align: center;
 }
-#interests ul li:first-child {
+#interests ul li:first-child{
     text-align: left;
 }
-#interests ul li:last-child {
+#interests ul li:last-child{
     text-align: right;
 }
 
-#interests ul li a i {
+#interests ul li a i{
     font-size: 2.5rem;
     padding: 0;
 }
@@ -111,7 +111,7 @@ ul{
     color: #000;
     font-size: 1.5rem;
 }
-#left div {
+#left div{
     margin: 10px 0;
     height: 2px;
     width: 100%;
@@ -119,7 +119,7 @@ ul{
     background-color: #9D9B9E;
     position: relative;
 }
-#left div > div {
+#left div > div{
     display: block;
     border: none;
     height: 4px;
@@ -130,7 +130,7 @@ ul{
     top: -11px;
     border-radius: 2px;
 }
-#right div {
+#right div{
     display: block;
     border: none;
     height: 4px;
@@ -141,13 +141,13 @@ ul{
     border-radius: 2px;
 }
 .left-section span,
-.right-section span {
+.right-section span{
     color: #000;
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
 }
-#education ul li {
+#education ul li{
     margin-bottom: 10px;
 }
 #education ul li::before{
@@ -170,7 +170,8 @@ ul{
     width: 30%;
 }
 #languages section,
-#skills section {
+#skills section,
+#repositories section{
     width: 60%;
     height: 6px;
     border: 1px solid #4a494b;
@@ -181,10 +182,21 @@ ul{
     display: inline-block;
 }
 #languages section section,
-#skills section section {
+#skills section section,
+#repositories section section{
     display:block;
     border: none;
     background-color: #4a494b;
+}
+#repositories ul li{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#repositories ul li a{
+    text-decoration: none;
+}
+#repositories ul li:hover a{
+    color: #2D7FA7;
 }
 #ukrainian section{
     width: 100%;
